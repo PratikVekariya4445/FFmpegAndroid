@@ -8,6 +8,26 @@ FFmpeg is a multimedia framework able to decode, encode, transcode, mux, demux, 
 - x86
 - x86_64
 
+## Add dependency
+- In your project’s build.gradle add the following line
+
+```sh
+        allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+```
+
+- Now in your app’s build.gradle add the dependency
+```sh
+       dependencies {
+	        implementation 'com.github.PratikVekariya4445:FFmpegAndroid:1.0'
+	}
+
+```
 ## How to use?
 - First step is to load ffmpeg
 
