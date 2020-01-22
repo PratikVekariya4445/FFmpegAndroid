@@ -1,0 +1,38 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /Work/Demo/audio status demo/FFmpegSO-master/.cxx/ndkBuild/debug/x86/android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /Work/Demo/audio status demo/FFmpegSO-master/.cxx/ndkBuild/debug/x86/android_gradle_build.json file is not present, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /Work/Demo/audio status demo/FFmpegSO-master/.cxx/ndkBuild/debug/x86/build_command.txt, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Work/Demo/audio status demo/FFmpegSO-master/.cxx/ndkBuild/debug/x86\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /Data/Software/SDK/ndk/20.1.5948944/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Work/Demo/audio status demo/FFmpegSO-master/jni/Android.mk\nNDK_APPLICATION_MK\u003d/Work/Demo/audio status demo/FFmpegSO-master/jni/Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/Work/Demo/audio status demo/FFmpegSO-master/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/Work/Demo/audio status demo/FFmpegSO-master/build/intermediates/ndkBuild/debug/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /Data/Software/SDK/ndk/20.1.5948944/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Work/Demo/audio status demo/FFmpegSO-master/jni/Android.mk\nNDK_APPLICATION_MK\u003d/Work/Demo/audio status demo/FFmpegSO-master/jni/Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/Work/Demo/audio status demo/FFmpegSO-master/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/Work/Demo/audio status demo/FFmpegSO-master/build/intermediates/ndkBuild/debug/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /Data/Software/SDK/ndk/20.1.5948944/ndk-build with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Work/Demo/audio status demo/FFmpegSO-master/jni/Android.mk NDK_APPLICATION_MK\u003d/Work/Demo/audio status demo/FFmpegSO-master/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Work/Demo/audio status demo/FFmpegSO-master/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Work/Demo/audio status demo/FFmpegSO-master/build/intermediates/ndkBuild/debug/lib APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\nAndroid NDK: Your APP_BUILD_SCRIPT points to an unknown file: /Work/Demo/audio status demo/FFmpegSO-master/jni/Android.mk    \n\n/Data/Software/SDK/ndk/20.1.5948944/build/core/add-application.mk:49: /Work/Demo/audio: No such file or directory\n/Data/Software/SDK/ndk/20.1.5948944/build/core/add-application.mk:49: status: No such file or directory\n/Data/Software/SDK/ndk/20.1.5948944/build/core/add-application.mk:49: demo/FFmpegSO-master/jni/Application.mk: No such file or directory\n/Data/Software/SDK/ndk/20.1.5948944/build/core/add-application.mk:88: *** Android NDK: Aborting...    .  Stop.\n"
+  }
+]

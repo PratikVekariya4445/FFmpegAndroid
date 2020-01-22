@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FFmpegAndroid</string>
+    <string name="folder_name">FFmpegAndroidDemo</string>
+    <string name="cut_audio_info">Currently added one audio from assests with <b>54 seconds</b> \n On below button click audio will cut from <b>0 seconds to 15 seconds</b></string>
+    <string name="progres_msg">Please wait...</string>
+</resources>
