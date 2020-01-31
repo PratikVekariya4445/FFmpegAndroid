@@ -8,6 +8,11 @@ FFmpeg is a multimedia framework able to decode, encode, transcode, mux, demux, 
 - x86
 - x86_64
 
+## Sample output
+
+![ezgif com-optimize](https://user-images.githubusercontent.com/59924303/73561868-e151ef00-447f-11ea-90f7-2ddcbe89ca61.gif)
+
+
 ## Add dependency
 - In your project’s build.gradle add the following line
 
@@ -29,7 +34,7 @@ FFmpeg is a multimedia framework able to decode, encode, transcode, mux, demux, 
 
 ```
 ## How to use?
-- First step is to load ffmpeg
+- First step is to load ffmpeg and then execute your command
 
 ```sh
 
@@ -52,8 +57,28 @@ FFmpeg is a multimedia framework able to decode, encode, transcode, mux, demux, 
 
 
 ```
+## Example : cut audio
 
-- Second step is run your command
+```sh
+public void cutAudio() {
+
+        String[] command = {
+                "-i"
+                , inputAudioFilePath
+                , "-ss"
+                , String.valueOf(startTime)
+                , "-to"
+                , String.valueOf(endTime)
+                , "-c"
+                , "copy"
+                , "-preset"
+                , "ultrafast"
+                , outputAudioPath
+        };
+
+        execFFmpegBinary(command);
+    }
+```
 
 ```sh
     
